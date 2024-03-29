@@ -1,0 +1,77 @@
+.signUpForm{
+    border-radius: 8px;
+    border: 0.5px solid #FFF;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 50%;
+}
+
+.formMainHeading{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+}
+
+.formSubHeading{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.18px;
+}
+
+.form{
+    padding-top: 20px;
+}
+
+.inputSignUp{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.inputSignUp label{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+
+.inputSignUp input{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 0.833px solid #D4D7E3;
+    padding: 12px 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+#date input{
+    color-scheme: dark;
+}
+
+.signUp{
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    padding: 12px 0px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.existing{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+    margin-top: 10px;
+}

@@ -1,0 +1,126 @@
+.loginForm{
+    border-radius: 8px;
+    border: 0.5px solid #FFF;
+    background-color: rgba(255, 255, 255,0.01);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    /* width: 50%; */
+    /* width: fit-content; */
+}
+
+.mainHeading{
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+}
+
+.subHeading{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.formInputs{
+    padding-top: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.input label{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+
+.input input{
+    background-color: transparent;
+    border-radius: 4px;
+    border: 0.833px solid #D4D7E3;
+    padding: 12px 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.forgetPass{
+    color: #FFA97C;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.signIn{
+    width: 100%;
+}
+
+.signIn button{
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background: white;
+    color: black;
+    padding: 12px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.newAcc{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.16px;
+    padding-top: 10px;
+}
+
+.copyright{
+    color: #959CB6;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+    padding-top: 20px;
+}
+
+.highlighted{
+    color: #FFA97C;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    
+}
+
+.mainHeading{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -30px;
+}
+
+button{
+    background-color: white;
+}

@@ -1,0 +1,61 @@
+.navBar{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navImg, .navImg img{
+    height: 100%;
+}
+
+.navImg img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightblue;
+}
+
+.navButtons{
+    display: flex;
+    align-items: center;
+}
+
+.homeButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0.282px;
+    cursor: pointer;
+}
+
+.loginButton{
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: #1C1C1C;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.282px;
+    padding: 0px 15px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.heading{
+    color: white;
+
+}
+.headingmain{
+    display: flex;
+    align-items: center;
+}
+.mainconteiner{
+    height: 40vh;
+    /* width: 89vw; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

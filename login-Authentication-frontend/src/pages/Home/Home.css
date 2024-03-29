@@ -1,0 +1,15 @@
+.homePage{
+    /* background-image: url("../../assests/HomePage.png"); */
+    background-size: contain;
+    height: calc(100vh - 80px);
+    padding: 40px 72px;
+    background-color:black ;
+}
+
+.cardShow{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
